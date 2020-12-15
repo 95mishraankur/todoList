@@ -1,0 +1,34 @@
+.list{
+
+    display: block;
+    
+    margin-left: 50px;
+  }
+  .list,.intext{
+    background-color:  rgb(218, 213, 213);
+    display: inline-block;
+  }
+  .content{
+    display: inline-flex;
+  }
+  
+  .content p{
+     display: inline;
+    padding: 20px;
+  }
+  .intext{
+    font-size: 40px;
+    border: none;
+  }
+  .delet{
+    border-radius: 2px;
+    border: none;
+    margin-top: 20px;
+  }
+  .delet:hover{
+    background-color: rgb(137, 84, 175);
+  }
+  .timing{
+    position: relative;
+    margin-top:50px ;
+  }
